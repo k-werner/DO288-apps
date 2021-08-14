@@ -3,5 +3,5 @@ spec:
     spec:
       containers:
       - envFrom:
-        - configMapRef:
+        configMapRef:
           name: env-config
